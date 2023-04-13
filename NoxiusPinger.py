@@ -20,7 +20,7 @@ blue=Fore.BLUE
 lb=Fore.LIGHTBLUE_EX
 os.system("@mode con cols=90 lines=40")
 os.system("cls")
-os.system(f"title ^>^>^> Noxius Paping ^| Noxius Multitool 💔 ^| Made by 𝖋𝖗𝖆𝖓_𝖆𝖋𝖕_ ^<^<^<")
+os.system(f"title ^>^>^> Noxius Pinger ^| Noxius Multitool 💔 ^| Made by 𝖋𝖗𝖆𝖓_𝖆𝖋𝖕_ ^<^<^<")
 gui="""
         ╔═══════════════════════════════════════════════╗ ╔═══════════════╗
         ║      ╔╗╔╔═╗═╗ ╦╦╦ ╦╔═╗  ╔═╗╦╔╗╔╔═╗╔═╗╦═╗      ║ ║   fran_afp_   ║
@@ -28,9 +28,9 @@ gui="""
         ║      ╝╚╝╚═╝╩ ╚═╩╚═╝╚═╝  ╩  ╩╝╚╝╚═╝╚═╝╩╚═      ║ ║  NoxiusOnTop  ║
         ╚═══════════════════════════════════════════════╝ ╚═══════════════╝
         ╔═════════════════════════════════════════════════════════════════╗
-        ║             [!] Noxius Pinnger by fran_afp_ [!]                 ║
+        ║           [!] Noxius Pinnger by fran_afp_#0001 [!]              ║
         ║                                                                 ║
-        ║       [&] discord.gg/noxius | discord.gg/trankimazin [&]        ║
+        ║               [&] docs.projectnoxius.xyz [&]                    ║
         ╚═════════════════════════════════════════════════════════════════╝
 """
 
@@ -51,7 +51,7 @@ port = input(f"{m}[{w}>>>{m}] {black}Port:{y} ")
 print("")
 while True:
     try:
-        os.system(f"title - Noxius Paping ^| Noxius Multitool 💔 ^| Made by 𝖋𝖗𝖆𝖓_𝖆𝖋𝖕_ ^| Paping to {ip} in port {port} -")
+        os.system(f"title - Noxius Pinger ^| Noxius Multitool 💔 ^| Made by 𝖋𝖗𝖆𝖓_𝖆𝖋𝖕_ ^| Ping to {ip} in port {port} -")
         tcpping(ip,int(port))
         time.sleep(0.25)
     except KeyboardInterrupt:
